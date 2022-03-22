@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-samson-master.flake = false;
+  inputs.src-samson-master.ref   = "refs/heads/master";
   inputs.src-samson-master.owner = "GULPF";
-  inputs.src-samson-master.ref   = "master";
   inputs.src-samson-master.repo  = "samson";
   inputs.src-samson-master.type  = "github";
   
